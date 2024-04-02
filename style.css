@@ -14,12 +14,26 @@ body {
 }
 
 .box {
-    width: 225px;
-    height: 225px;
-    /* width: 18vw;
-    height: 18vw; */
+    width: 190px;
+    height: 190px;
+    /* width: 15vw;
+    height: 15vw; */
     border: 0.6rem solid black;
     border-radius: 25%;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 35vw;
+        height: 35vw;
+        border: 0.6rem solid black;
+        border-radius: 25%;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin: 2rem;
+    }
 }
 
 .blue {
