@@ -1,0 +1,65 @@
+body {
+    background-color: #011f3f;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    margin: 2rem;
+    color: #fef2bf;
+}
+
+.box {
+    width: 225px;
+    height: 225px;
+    /* width: 18vw;
+    height: 18vw; */
+    border: 0.6rem solid black;
+    border-radius: 25%;
+}
+
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 2rem;
+}
+
+.main2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main2-1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
